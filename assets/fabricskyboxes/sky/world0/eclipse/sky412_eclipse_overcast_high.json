@@ -1,0 +1,55 @@
+{
+	"schemaVersion": 2,
+	"type": "single-sprite-square-textured",
+	"texture": "minecraft:optifine/sky/world0/201-300_clouds/sky231_night_overcast_high.png",
+	"blend": {"type" : "alpha"},
+	"properties": {
+		"priority": 412,
+		"fade": {
+			"startFadeIn": 2950,
+			"endFadeIn": 3350,
+			"startFadeOut": 3750,
+			"endFadeOut": 4150
+			},
+		"rotation": {
+			"rotationSpeedY": -0.866,
+			"static": [0.0, 0.0, 0.0],
+			"axis": [0.0, 0.0, 0.0]
+			},
+		"transitionInDuration": 200,
+		"transitionOutDuration": 200,
+		"changeFog": false,
+		"fogColors": {"red": 0.049995, "green": 0.055003, "blue": 0.074678, "alpha": 1.0}
+		},
+	"conditions": {
+		"worlds": ["minecraft:overworld"],
+		"weather": ["clear", "rain", "thunder", "snow"],
+		"yRanges": [{"min": 256.0001, "max": 319.0}],
+		"loop": {
+			"days": 5.0,
+			"ranges": [{"min": 1, "max": 2}]
+			},
+		"biomes": [
+			"snowy_plains",
+			"ice_spikes",
+			"snowy_taiga",
+			"grove",
+			"snowy_slopes",
+			"frozen_peaks",
+			"jagged_peaks",
+			"frozen_river",
+			"snowy_beach",
+			"frozen_ocean",
+			"deep_frozen_ocean"
+			],
+		"loop": {
+			"days": 8.0,
+			"ranges": [{"min": 0, "max": 4}, {"min": 5, "max": 8}]
+			}
+		},
+	"decorations": {
+		"showSun": false,
+		"showMoon": false,
+		"showStars": false
+		}
+}

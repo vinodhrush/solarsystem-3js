@@ -1,0 +1,48 @@
+{
+	"schemaVersion": 2,
+	"type": "single-sprite-square-textured",
+	"texture": "minecraft:optifine/sky/world0/201-300_clouds/sky235_night_clear_high.png",
+	"blend": {"type" : "alpha"},
+	"properties": {
+		"priority": 235,
+		"fade": {
+			"startFadeIn": 12500,
+			"endFadeIn": 13500,
+			"startFadeOut": 22500,
+			"endFadeOut": 23500
+			},
+		"rotation": {
+			"rotationSpeedY": -0.866,
+			"static": [0.0, 0.0, 0.0],
+			"axis": [0.0, 0.0, 0.0]
+			},
+		"transitionInDuration": 200,
+		"transitionOutDuration": 200,
+		"changeFog": true,
+		"fogColors": {"red": 0.0509803921568627, "green": 0.0549019607843137, "blue": 0.0823529411764706, "alpha": 1.0}
+		},
+	"conditions": {
+		"worlds": ["minecraft:overworld"],
+		"weather": ["clear", "rain", "thunder", "snow"],
+		"yRanges": [{"min": 256.0001, "max": 319.0}],
+		"biomes": [
+			"desert",
+			"terralith:desert_canyon",
+			"terralith:desert_oasis",
+			"terralith:desert_spires",
+			"terralith:lush_desert",
+			"terralith:red_oasis",
+			"terralith:sandstone_valley",
+			"terralith:warped_mesa",
+			"terralith:white_mesa",
+			"biomesoplenty:cold_desert",
+			"biomesoplenty:volcanic_plains",
+			"biomesoplenty:volcano"
+			]
+		},
+	"decorations": {
+		"showSun": false,
+		"showMoon": false,
+		"showStars": false
+		}
+}

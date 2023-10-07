@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 2,
+	"type": "single-sprite-square-textured",
+	"texture": "minecraft:optifine/sky/world0/301-400_decor_below_clouds/sky323_earth_shadow_sunset.png",
+	"blend": {"type" : "multiply"},
+	"properties": {
+		"priority": 455,
+		"fade": {
+			"startFadeIn": 12720,
+			"endFadeIn": 14220,
+			"startFadeOut": 15720,
+			"endFadeOut": 16720
+			},
+		"rotation": {
+			"rotationSpeedY": 0.0,
+			"static": [0.0, -20.0, 0.0],
+			"axis": [0.0, 0.0, 0.0]
+			},
+		"transitionInDuration": 200,
+		"transitionOutDuration": 200
+		},
+	"conditions": {
+		"worlds": ["minecraft:overworld"],
+		"weather": ["clear", "rain", "thunder", "snow"],
+		"yRanges": [{"min": 319.0001, "max": 10000.0}]
+		},
+	"decorations": {
+		"showSun": false,
+		"showMoon": false,
+		"showStars": false
+		}
+}

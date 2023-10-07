@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 2,
+	"type": "single-sprite-square-textured",
+	"texture": "minecraft:optifine/sky/world0/301-400_decor_below_clouds/sky324_earth_night.png",
+	"blend": {"type" : "alpha"},
+	"properties": {
+		"priority": 456,
+		"fade": {
+			"startFadeIn": 14220,
+			"endFadeIn": 15720,
+			"startFadeOut": 20280,
+			"endFadeOut": 21780
+			},
+		"rotation": {
+			"rotationSpeedY": 1.0,
+			"static": [0.0, 0.0, 0.0],
+			"axis": [0.0, 0.0, 0.0]
+			},
+		"transitionInDuration": 200,
+		"transitionOutDuration": 200
+		},
+	"conditions": {
+		"worlds": ["minecraft:overworld"],
+		"weather": ["clear", "rain", "thunder", "snow"],
+		"yRanges": [{"min": 319.0001, "max": 10000.0}]
+		},
+	"decorations": {
+		"showSun": false,
+		"showMoon": false,
+		"showStars": false
+		}
+}

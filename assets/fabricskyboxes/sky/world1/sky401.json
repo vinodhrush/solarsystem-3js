@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 2,
+	"type": "single-sprite-square-textured",
+	"texture": "minecraft:optifine/sky/world1/end_sky.png",
+	"blend": {"type" : "alpha"},
+	"properties": {
+		"priority": 501,
+		"fade": {
+			"startFadeIn": 0,
+			"endFadeIn": 1,
+			"startFadeOut": 23998,
+			"endFadeOut": 23999,
+			"AlwaysOn": true
+			},
+		"changeFog": true,
+		"fogColors": {"red": 0.072272, "green": 0.066626, "blue": 0.144128, "alpha": 1.0}
+		},
+	"conditions": {"worlds": ["minecraft:the_end"]},
+	"decorations": {
+		"showSun": false,
+		"showMoon": false,
+		"showStars": false
+		}
+}

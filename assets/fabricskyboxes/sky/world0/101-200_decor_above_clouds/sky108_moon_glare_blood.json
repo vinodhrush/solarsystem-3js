@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 2,
+	"type": "single-sprite-square-textured",
+	"texture": "minecraft:optifine/sky/world0/101-200_decor_above_clouds/sky108_moon_glare_blood.png",
+	"blend": {"type" : "add"},
+	"properties": {
+		"priority": 108,
+		"fade": {
+			"startFadeIn": 12500,
+			"endFadeIn": 13500,
+			"startFadeOut": 22500,
+			"endFadeOut": 23500
+			},
+		"rotation": {
+			"rotationSpeedY": 0.2,
+			"static": [97.9, 0.0, 37.6],
+			"axis": [153.4, 0.0, -37.6]
+			},
+		"transitionInDuration": 200,
+		"transitionOutDuration": 200
+		},
+	"conditions": {
+		"worlds": ["minecraft:overworld"],
+		"weather": ["clear", "rain", "thunder", "snow"],
+		"yRanges": [{"min": 0.0, "max": 256.0}],
+		"loop": {
+			"days": 56.0,
+			"ranges": [{"min": 3, "max": 4}, {"min": 10, "max": 11}, {"min": 17, "max": 18}, {"min": 24, "max": 25}, {"min": 31, "max": 32}, {"min": 38, "max": 39}, {"min": 45, "max": 46}]
+			}
+		},
+	"decorations": {
+		"showSun": false,
+		"showMoon": false,
+		"showStars": false
+		}
+}

@@ -1,0 +1,43 @@
+{
+	"schemaVersion": 2,
+	"type": "single-sprite-square-textured",
+	"texture": "minecraft:optifine/sky/world0/101-200_decor_above_clouds/sunmoon.png",
+	"blend": {"type" : "add"},
+	"properties": {
+		"priority": 111,
+		"fade": {
+			"startFadeIn": 11000,
+			"endFadeIn": 12000,
+			"startFadeOut": 0,
+			"endFadeOut": 1000
+		},
+		"rotation": {
+			"rotationSpeedY": 1.0,
+			"static": [0.0, 0.0, 0.0],
+			"axis": [0.0, 0.0, 0.0]
+			},
+		"transitionInDuration": 200,
+		"transitionOutDuration": 200
+		},
+	"conditions": {
+		"worlds": ["minecraft:overworld"],
+		"weather": ["clear", "rain", "thunder", "snow"],
+		"loop": {
+			"days": 56.0,
+			"ranges": [{"min": 3, "max": 4}, {"min": 10, "max": 11}, {"min": 17, "max": 18}, {"min": 24, "max": 25}, {"min": 31, "max": 32}, {"min": 38, "max": 39}, {"min": 45, "max": 46}, {"min": 52, "max": 53}]
+			}
+		},
+	"decorations": {
+		"moon": "minecraft:textures/environment/moon_phases_blood.png",
+		"blend": {"type" : "screen"},
+		"showSun": false,
+		"showMoon": true,
+		"showStars": false,
+		"rotation": {
+			"skyboxRotation": true,
+			"rotationSpeedY": 0.2,
+			"static": [97.9, 0.0, 37.6],
+			"axis": [153.4, 0.0, -37.6]
+			}
+		}
+}

@@ -1,0 +1,56 @@
+{
+	"schemaVersion": 2,
+	"type": "single-sprite-square-textured",
+	"texture": "minecraft:optifine/sky/world0/201-300_clouds/sky219_day_hot.png",
+	"blend": {"type" : "alpha"},
+	"properties": {
+		"priority": 219,
+		"fade": {
+			"startFadeIn": 500,
+			"endFadeIn": 1500,
+			"startFadeOut": 10500,
+			"endFadeOut": 11500
+			},
+		"rotation": {
+			"rotationSpeedY": -0.866,
+			"static": [0.0, 0.0, 0.0],
+			"axis": [0.0, 0.0, 0.0]
+			},
+		"transitionInDuration": 200,
+		"transitionOutDuration": 200,
+		"changeFog": true,
+		"fogColors": {"red": 0.8470588235294118, "green": 0.9019607843137255, "blue": 0.9764705882352941, "alpha": 1.0}
+		},
+	"conditions": {
+		"worlds": ["minecraft:overworld"],
+		"weather": ["clear", "rain", "thunder", "snow"],
+		"yRanges": [{"min": -128.0, "max": 256.0}],
+		"biomes": [
+			"savanna",
+			"savanna_plateau",
+			"windswept_savanna",
+			"badlands",
+			"eroded_badlands",
+			"wooded_badlands",
+			"mangrove_swamp",
+			"terralith:ashen_savanna",
+			"terralith:savanna_badlands",
+			"terralith:savanna_slopes",
+			"terralith:fractured_savanna",
+			"terralith:brushland",
+			"terralith:shrubland",
+			"terralith:arid_highlands",
+			"terralith:ancient_sands",
+			"terralith:bryce_canyon",
+			"terralith:rocky_mountains",
+			"biomesoplenty:dryland",
+			"biomesoplenty:scrubland",
+			"biomesoplenty:wasteland"
+			]
+		},
+	"decorations": {
+		"showSun": false,
+		"showMoon": false,
+		"showStars": false
+		}
+}

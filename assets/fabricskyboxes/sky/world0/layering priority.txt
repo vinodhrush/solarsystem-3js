@@ -1,0 +1,26 @@
+1-5: stars, at night, low altitude, with brightness loop
+6: day sky
+7-10: stars, full day (4 stages), high altitude, max brightness
+11: stars, full day, outer space, max brightness
+
+101-104: shooting stars
+105-106: moon masks (low + high alt.)
+107-108: glares
+109-111: moon / sun (low + high alt.)
+
+200: cumulonimbus cloud low alt.
+201-220: low alt. clouds (gaps: 202, 207, 212, 217)
+221-240: high alt. clouds
+241: rainbow
+242-245: low alt. rain clouds
+246-247: thunder overlays (low + high alt.)
+300: cumulonimbus high alt.
+
+301-302: auroras (low + high alt.)
+303-314: lightning strikes (low + high alt.)
+315: gap
+316-318: tornado
+
+398-420: eclipse
+
+451-458: planet

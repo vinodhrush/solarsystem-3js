@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 2,
+	"type": "single-sprite-square-textured",
+	"texture": "minecraft:optifine/sky/world0/101-200_decor_above_clouds/eclipse_sky.png",
+	"blend": {"type" : "screen"},
+	"properties": {
+		"maxAlpha": 0.5,
+		"priority": 420,
+		"fade": {
+			"startFadeIn": 2950,
+			"endFadeIn": 3350,
+			"startFadeOut": 3750,
+			"endFadeOut": 4150
+			},
+		"rotation": {
+			"rotationSpeedY": -0.234,
+			"static": [180.0, 0.0, 0.0],
+			"axis": [0.0, 0.0, 0.0]
+			},
+		"transitionInDuration": 200,
+		"transitionOutDuration": 200,
+		"changeFog": true,
+		"fogColors": {"red": 0.1254901960784314, "green": 0.1607843137254902, "blue": 0.2235294117647059, "alpha": 1.0}
+		},
+	"conditions": {
+		"worlds": ["minecraft:overworld"],
+		"weather": ["clear", "rain", "thunder", "snow"],
+		"yRanges": [{"min": 256.0001, "max": 319.0}],
+		"loop": {
+			"days": 5.0,
+			"ranges": [{"min": 1, "max": 2}]
+			}
+		},
+	"decorations": {
+		"showSun": false,
+		"showMoon": false,
+		"showStars": false
+		}
+}

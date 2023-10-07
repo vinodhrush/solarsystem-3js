@@ -1,0 +1,43 @@
+{
+	"schemaVersion": 2,
+	"type": "single-sprite-square-textured",
+	"texture": "minecraft:optifine/sky/world0/101-200_decor_above_clouds/sunmoon.png",
+	"blend": {"type" : "add"},
+	"properties": {
+		"priority": 401,
+		"fade": {
+			"startFadeIn": 2950,
+			"endFadeIn": 3350,
+			"startFadeOut": 3350,
+			"endFadeOut": 3550
+			},
+		"rotation": {
+			"rotationSpeedY": 1.0,
+			"static": [0.0, 0.0, 0.0],
+			"axis": [0.0, 0.0, 0.0]
+			},
+		"transitionInDuration": 200,
+		"transitionOutDuration": 200
+		},
+	"conditions": {
+		"worlds": ["minecraft:overworld"],
+		"weather": ["clear", "rain", "thunder", "snow"],
+		"loop": {
+			"days": 5.0,
+			"ranges": [{"min": 1, "max": 2}]
+			}
+		},
+	"decorations": {
+		"blend": {"type" : "add"},
+		"sun": "minecraft:textures/environment/sun.png",
+		"showSun": true,
+		"showMoon": false,
+		"showStars": false,
+		"rotation": {
+			"skyboxRotation": true,
+			"rotationSpeedY": 1.0,
+			"static": [0.0, 0.0, -90.0],
+			"axis": [120.0, 0.0, 0.0]
+			}
+		}
+}

@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 2,
+	"type": "single-sprite-square-textured",
+	"texture": "minecraft:optifine/sky/world0/001-100_skies/sky1_stars1.png",
+	"blend": {"type" : "add"},
+	"properties": {
+		"priority": 399,
+		"fade": {
+			"startFadeIn": 3150,
+			"endFadeIn": 3550,
+			"startFadeOut": 3550,
+			"endFadeOut": 3950
+			},
+		"rotation": {
+			"rotationSpeedY": 1.0,
+			"static": [0.0, 0.0, 0.0],
+			"axis": [-63.48, 0.0, 0.0]
+			},
+		"transitionInDuration": 200,
+		"transitionOutDuration": 200
+		},
+	"conditions": {
+		"worlds": ["minecraft:overworld"],
+		"weather": ["clear", "rain", "thunder", "snow"],
+		"yRanges": [{"min": -128.0, "max": 256.0}],
+		"loop": {
+			"days": 5.0,
+			"ranges": [{"min": 1, "max": 2}]
+			}
+		},
+	"decorations": {
+		"showSun": false,
+		"showMoon": false,
+		"showStars": false
+		}
+}

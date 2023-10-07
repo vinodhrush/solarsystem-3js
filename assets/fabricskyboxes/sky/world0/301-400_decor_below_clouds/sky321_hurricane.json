@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 2,
+	"type": "single-sprite-square-textured",
+	"texture": "minecraft:optifine/sky/world0/301-400_decor_below_clouds/sky321_hurricane.png",
+	"blend": {"type" : "alpha"},
+	"properties": {
+		"priority": 453,
+		"fade": {"alwaysOn": true},
+		"rotation": {
+			"rotationSpeedY": 2.1,
+			"static": [0.0, 0.0, 0.0],
+			"axis": [0.0, 0.0, 0.0]
+			},
+		"transitionInDuration": 200,
+		"transitionOutDuration": 200
+		},
+	"conditions": {
+		"worlds": ["minecraft:overworld"],
+		"weather": ["thunder"],
+		"yRanges": [{"min": 319.0001, "max": 10000.0}]
+		},
+	"decorations": {
+		"showSun": false,
+		"showMoon": false,
+		"showStars": false
+		}
+}

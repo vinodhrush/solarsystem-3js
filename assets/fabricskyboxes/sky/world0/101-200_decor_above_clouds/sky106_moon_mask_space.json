@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 2,
+	"type": "single-sprite-square-textured",
+	"texture": "minecraft:optifine/sky/world0/101-200_decor_above_clouds/sky105_moon_mask.png",
+	"blend": {"type" : "alpha"},
+	"properties": {
+		"priority": 106,
+		"fade": {"alwaysOn": true},
+		"rotation": {
+			"rotationSpeedY": 0.2,
+			"static": [97.9, 0.0, 37.6],
+			"axis": [153.4, 0.0, -37.6]
+			},
+		"transitionInDuration": 200,
+		"transitionOutDuration": 200
+		},
+	"conditions": {
+		"worlds": ["minecraft:overworld"],
+		"weather": ["clear", "rain", "thunder", "snow"],
+		"yRanges": [{"min": 319.0001, "max": 10000.0}]
+		},
+	"decorations": {
+		"showSun": false,
+		"showMoon": false,
+		"showStars": false
+		}
+}
